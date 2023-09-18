@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+
+
+
+#background-video {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    
+    z-index: -1;
+    }
+
+
+    .cv,
+    .lettre {
+        text-align: center;
+    }
+
+    .cv img,
+    .lettre img {
+        max-width: 50%;
+        height: auto;
+        
+    }
+
+    
